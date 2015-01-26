@@ -2,13 +2,13 @@ body {
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #57483B;
+	background-color: #5C5047;
 	color: white;
 	font-family: Garamond;
 }
 
 p {
-	font-family: "Adobe Garamond Pro";
+	font-family: "Garamond";
 	font-style: normal;
 }
 
@@ -33,4 +33,8 @@ ul {
 nav {
 	text-align: center;
 	margin-top: -40px;
+}
+
+.uppercase {
+	text-transform: uppercase;	
 }
