@@ -1,0 +1,39 @@
+.block {
+	margin-top: 35px;
+}
+
+
+.block p {
+	margin-top: -15px;
+}
+
+.accomplishments {
+	list-style-type: square;
+	margin-top: -10px;
+}
+
+.section-content {
+	margin-left: -40px;
+	margin-top: -20px;	
+}
+
+.res-subtitle {
+	font-size: 1em;
+}
+
+.classes {
+	margin-left: 0px;
+	margin-top: -10px;
+}
+
+.activities {
+	margin-top: -10px;
+}
+
+.skills {
+	margin-top: -10px;
+}
+
+.section {
+	margin-bottom: 30px;
+}
