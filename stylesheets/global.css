@@ -2,15 +2,21 @@ body {
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #635244;
+	background-color: #57483B;
 	color: white;
 	font-family: Garamond;
+}
+
+p {
+	font-family: "Adobe Garamond Pro";
+	font-style: normal;
 }
 
 .name {
 	font-family: Garamond;
 	text-align: center;
 	font-size: 3.5em;
+	margin-top: 50px;
 }
 
 a {
