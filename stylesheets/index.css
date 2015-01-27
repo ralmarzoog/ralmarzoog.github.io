@@ -2,6 +2,7 @@ h1 {
 	font-size: 5em;
 	text-align: center;
 	font-family: Garamond;
+	margin-top: -25px;
 }
 
 a {
@@ -9,6 +10,7 @@ a {
 	font-family: Garamond;
 	font-size: 1.7em;
 	padding-right: 20px;
+	margin-top: -10px;
 }
 
 .centered {
@@ -20,4 +22,15 @@ a {
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+
+nav {
+	margin-top: -50px;
+	margin-left: 25px;
+}
+
+img {
+	width: 150px;
+	margin-left: 275px;
+	margin-top: 0px;
 }

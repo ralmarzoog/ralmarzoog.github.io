@@ -5,11 +5,14 @@ body {
 	background-color: #5C5047;
 	color: white;
 	font-family: Garamond;
+	text-align: justify;
+	background-image: url("images/card15.jpg");
 }
 
 p {
 	font-family: "Garamond";
 	font-style: normal;
+	
 }
 
 .name {
