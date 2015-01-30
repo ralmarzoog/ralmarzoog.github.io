@@ -4,27 +4,29 @@ body {
 	margin-right: auto;
 	background-color: #5C5047;
 	color: white;
-	font-family: Garamond;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
 	text-align: justify;
 	background-image: url("../images/card15.jpg");
 }
 
 p {
-	font-family: "Garamond";
 	font-style: normal;
-
+	color: ;
 }
 
 .name {
-	font-family: Garamond;
+	font-family: 'Garamond', serif;
 	text-align: center;
-	font-size: 3.5em;
+	color: white;
+	font-size: 3.1em;
 	margin-top: 50px;
+	text-shadow: 1px 1px 1px #222222;
 }
 
 a {
 	text-decoration: none;
-	color: white;
+	color: moccasin;
 	padding-right: 10px;
 }
 
@@ -35,7 +37,7 @@ ul {
 
 nav {
 	text-align: center;
-	margin-top: -40px;
+	margin-top: -35px;
 }
 
 .uppercase {

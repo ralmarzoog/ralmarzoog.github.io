@@ -15,10 +15,12 @@
 .section-content {
 	margin-left: -40px;
 	margin-top: -20px;	
+	font-size: .919em;
 }
 
 .res-subtitle {
 	font-size: 1em;
+	font-family: 'Roboto Slab', 'Roboto', sans-serif;
 }
 
 .classes {
