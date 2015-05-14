@@ -1,139 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="stylesheets/global.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/resume.css">
-	<title>Resume | Reema Al-Marzoog</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Reema Al-Marzoog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<body>
-	<header>
-		<h1 class="name"><a href="/">reema al-marzoog</a></h1>
-		<nav>
-			<a href="bio.html" class="nav-link">bio.</a>
-			<a href="resume.html" class="nav-link">resum&eacute;.</a>
-		</nav>
-	</header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">
+                    <span class="light">Reema</span> Al-Marzoog
+                </a>
+            </div>
 
-	<div class="res-sections">
-		<ul>
-			<li class="section">
-				<h5 class="uppercase res-subtitle">
-					Education
-				</h5>
-				<ul class="section-content">
-					<li class="block">
-						<p><span class="bold">Tufts University</span>, Medford, MA</p>
-						<p>Bachelor of Science in Computer Science, expected May 2016</p>
-						<p><span class="italic">Minor</span>: Colonialism Studies</p>
-						<p><span class="italic">Honors</span>: Phi Beta Kappa, Dean's List all semesters</p>
-					</li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="bio.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="mailto:reema.al_marzoog@tufts.edu">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-					<li class="block">
-						<p><span class="bold">Tufts-in-Talloires</span>, Talloires, France</p>
-						<p>Six-week study abroad program, <span class="italic">MacJannet Scholar</span>, May - June 2013</p>
-					</li>
-				</ul>
-			</li>
+    <section id="resume" class="container content-section text-center resume-section">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="section-heading">Resume</h2>
+            </div>
+            <div class="resume-icons">
+                <p>
+                    <i class="fa fa-4x fa-university resume-icon btn btn-default btn-lg btn-icons"></i>
+                    &emsp;
+                    &emsp;
+                    <i class="fa fa-4x fa-briefcase resume-icon btn btn-lg btn-icons"></i>
+                    &emsp;
+                    &emsp;
+                    <i class="fa fa-4x fa-wrench resume-icon btn btn-lg btn-icons"></i>
+                </p>
 
-			<li class="section">
-				<h5 class="uppercase res-subtitle">
-					Relevant Coursework
-				</h5>
-				<p class="section-content classes">
-					Computation Theory, Web Programming, Machine Learning, Algorithms, Visualization, Programming Languages, Discrete Math, Machine Structure and Assembly Language Programming, Data Structures, Calculus
-				</p>
-			</li>
+            </div>
+        </div>
+    </section>
 
-			<li class="section">
-				<h5 class="uppercase res-subtitle">
-					Experience
-				</h5>
-				<ul class="section-content">
-					<li class="block">
-						<p><span class="bold">TurningArt</span>, Boston, MA</p>
-						<p><span class="italic">Web Developer</span>, June - December 2014</p>
-						<ul class="accomplishments">
-							<li>
-								Built features that benefit customers and employees for an art leasing service's Rails-based website
-							</li>
-							<li>
-								Practiced Test Driven Development with RSpec and Capybara
-							</li>
-							<li>
-								Expedited shipping by automating FedEx label generation using the EasyPost API and Active Admin
-							</li>
-							<li>
-								Designed and programmed a highly-requested feature used by over 1000 artists to optionally customize the cover photo displayed on their public profile using jQuery and Haml 
-							</li>
-							<li>
-								Automated reminder for artists with royalties due but no PayPal account on file using Active Admin and PostgreSQL 
-							</li>
-							<li>
-								Overhauled the Curator Dashboard, which the curators use to recommend artwork to businesses, through a series of enhancements that resulted in an increase in the rate at which the curators are able to close deals; used Haml, CSS, JavaScript, PostgreSQL, jQuery, RSpec, Capybara, and CoffeeScript
-							</li>
-						</ul>
+    <!-- Education Section -->
+    <section id="education" class="text-center resume-subsection">
+        <div class="education-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Education</h2>
+                    <h3>Tufts University<span class="light">, Medford, MA</span></h3>
+                    <p>Bachelor of Science in Computer Science expected May 2016</p>
+                    <p><span class="bold">Minor:</span> Colonialism Studies</p>
+                    <h3>Tufts-in-Talloires</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					</li>
+    <!-- Experience Section -->
+    <section id="experience" class="text-center resume-subsection">
+        <div class="experience-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Experience</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<li class="block">
-						<p><span class="bold">Cognitive Aging and Memory Lab</span>, Medford, MA</p>
-						<p><span class="italic">Research Assistant</span>, September 2013 - May 2014</p>
-						<ul class="accomplishments">
-							<li>
-								 Administered experiments to undergraduate and older adult participants for graduate students' research
-							</li>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="text-center resume-subsection">
+        <div class="skills-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Skills</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-							<li>
-								Researched the effects of repeated testing, misinformation, and stereotype threat on memory
-							</li>
 
-							<li>
-								Shared progress and developments at biweekly lab meetings
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-			<li class="section">
-				<h5 class="uppercase res-subtitle">
-					Skills
-				</h5>
-				<ul class="section-content skills">
-					<li><span class="bold">Programming</span>: C, C++, Ruby on Rails, HTML, CSS, Processing</li>
-					<li><span class="bold">Software/Tools</span>: Microsoft Office, SPSS, git, Github</li>
-					<li><span class="bold">Language</span>: French (proficient), Arabic (conversant)</li>
-				</ul>
-			</li>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-			<li class="section">
-				<h5 class="uppercase res-subtitle">
-					Selected Activities
-				</h5>
-				<ul class="section-content activities">
-					<li>
-						<span class="bold">Women in Computer Science</span>, <span class="italic">Student Outreach Coordinator</span>, Medford, MA, February - May 2014
-					</li>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
 
-					<li>
-						<span class="bold">Tufts China Care's Lux Fashion Show</span>, <span class="italic">Graphic Designer</span>, Medford, MA, November 2013 - May 2014
-					</li>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
-					<li>
-						<span class="bold">Tufts Observer</span>, <span class="italic">Art Contributor</span>, Medford, MA, February 2013 - May 2014
-					</li>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
-					<li>
-						<span class="bold">Let's Get Ready</span>, <span class="italic">Math Coach</span>, Boston, MA, February - May 2014
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
 </body>
 
 </html>

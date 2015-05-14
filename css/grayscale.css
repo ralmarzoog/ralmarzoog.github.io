@@ -271,7 +271,7 @@ a:focus {
 }
 
 .resume-icon {
-    color: #fff;
+    color: black;
 }
 .resume-subtitle {
     margin-top: 15px;
@@ -280,7 +280,6 @@ a:focus {
 #education,
 #experience,
 #skills {
-    display: none;
 }
 
 .service-box {
@@ -326,7 +325,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 
     .download-section {
@@ -350,17 +349,30 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid rgba(170, 214, 80, .8);
-    color: rgba(170, 214, 80, .8);
+    border: 1px solid #fff;
+    color: #fff;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid rgba(170, 214, 80, .5);
+    border: 1px solid #fff;
     outline: 0;
-    color: #fff;
-    background-color: rgba(170, 214, 80, .5);
+    color: rgb(170,214,80);
+    background-color: #fff
+}
+
+.btn-icons {
+    border: 1px solid rgba(170,214,80,.8);
+    color: rgba(170,214,80,.8);
+    margin-top: -60px;
+}
+
+.btn-icons:hover,
+.btn-icons:focus {
+    border: 1px solid rgba(170, 214, 80,.8);
+    color: white;
+    background-color: rgba(170, 214, 80,.8);
 }
 
 ul.banner-social-buttons {
@@ -432,21 +444,36 @@ hr.light {
     padding-top: 100px;
     padding-bottom: 0px;
     margin-bottom: 150px;
-    color: #fff; 
-    background-color: rgba(170, 214, 80, .5);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 
 .resume-subsection {
     padding-top: 0px;
-    margin-top: -100px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.resume-icons {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.resume-icons p {
+    font-size: 6px;
+}
+
+.section-heading {
+    margin-bottom: 0px;
 }
 
