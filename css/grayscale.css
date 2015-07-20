@@ -477,3 +477,12 @@ hr.light {
     margin-bottom: 0px;
 }
 
+.italic {
+    font-style: italic;
+}
+
+#resume-body {
+    width: 70%;
+    text-align: left;
+}
+
