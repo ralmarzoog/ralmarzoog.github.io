@@ -1,0 +1,24 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3.8em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#name {
+    margin-left: 25%;
+    margin-top: 7%
+}
+
+
+.links {
+    margin-left: 55%;
+    font-size: 2.5em;
+}
+
+
