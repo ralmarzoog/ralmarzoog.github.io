@@ -10,6 +10,14 @@ h2 {
     font-size: 3em;
 }
 
+h3 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 0.7em;
+}
+
 .page-title {
     text-align: center;
 }
@@ -51,5 +59,58 @@ ul {
 #home-link:hover {
     color: #555;
     border-bottom-style: none;
+}
+
+.body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.collabs {
+    margin-top: -1.5em;
+    margin-bottom: -0.5em;
+    padding: 0px;
+    color: #888;
+}
+
+.projects p {
+    text-align: justify;
+}
+
+.projects ul li {
+    padding: 0px 10px 5px 10px;
+    border-bottom-style: solid;
+    border-color: #e67c68;
+    border-width: 4px;
+}
+
+.projects ul li h3 {
+    padding-top: 5px;
+}
+
+.projects ul li:hover {
+    background-color: #eee !important;
+    cursor: pointer;
+}
+
+.emph {
+    font-weight: bold;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+.resume p {
+    font-family: 'Open Sans', 'Montserrat', sans-serif; 
+}
+
+.more-details {
+    display: none;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+}
+
+.proj-summary {
+    font-size: 0.9em;
 }
 

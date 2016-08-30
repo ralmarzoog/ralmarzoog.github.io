@@ -3,7 +3,10 @@
 <head>
     <title>Reema Al-Marzoog</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="global.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -22,49 +25,54 @@
     
     <h2 class="page-title">projects</h2>
 
-    <div class="projects">
+    <div class="body projects">
         <ul>
-            <li>
+            <li class="project">
                 <h3>
                     EcoSym
                 </h3>
-                <h5>
-                    Collaborated with Nathan Stocking and Ben DeButts
+                <h5 class="collabs">
+                    Collaborated with Nathan Stocking and Ben deButts
                 </h5>
-                <p>
+                <p class="proj-summary">
                     Simulated events in a marine ecosystem with concurrently running threads using Python
                 <p>
+                <div class="more-details">
+                    <p>
+                        EcoSym is a simulation of a marine ecosystem. The ecosystem contains marine organisms and simulates the relationships between these organisms, as well as a few natural processes that occur in such ecosystems. EcoSym currently simulates a select few marine organisms, but the design allows potential to quickly add more. The size of the body of water and number of organisms is only limited by the thread limit on the machine running the simulation. Features include predator-prey relationships, reproduction, aging and maturity, movement, and starvation. 
+                    </p>
+                </div>
             </li>
-            <li>
+            <li class="project">
                 <h3>
                     Procedural City Generation
                 </h3>
-                <h5>
+                <h5 class="collabs">
                     Collaborated with Eric Bailey
                 </h5>
-                <p>
+                <p class="proj-summary">
                     Procedurally generated scenes as XML files that represent a city developing over time and rendered the scenes using a ray tracer; used Python, C++, and GLUI
                 </p>
             </li>
-            <li>
+            <li class="project">
                 <h3>
                     SunDial
                 </h3>
-                <h5>
+                <h5 class="collabs">
                     Collaborated with Eliza Schreibman, Melissa Blotner, and Jake Mingolla
                 </h5>
-                <p>
+                <p class="proj-summary">
                     Created a wearable device and an accompanying iOS app that measure the wearer's UV exposure and notifies the user when it's time to re-apply sunscreen
                 </p>
             </li>
-            <li>
+            <li class="project">
                 <h3>
                     RPC
                 </h3>
-                <h5>
+                <h5 class="collabs">
                     Collaborated with Rebecca Howarth
                 </h5>
-                <p>
+                <p class="proj-summary">
                     Wrote a Python script that, given a simplified C++ header file, generates C++ code that invokes a remote procedure call
                 </p>
             </li>
