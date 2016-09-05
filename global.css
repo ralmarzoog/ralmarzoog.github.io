@@ -133,3 +133,23 @@ ul {
     font-size: 0.9em;
 }
 
+.slides {
+    width: 90%;
+}
+
+.slides ol {
+    list-style-type: none;
+}
+
+.slides ol li {
+    width: 100%;
+}
+
+.slide {
+    width: 100%;
+}
+
+.controls {
+    font-size: 3em;
+    text-align: center;
+}
