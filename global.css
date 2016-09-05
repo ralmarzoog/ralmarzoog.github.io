@@ -31,6 +31,20 @@ ul {
     margin-top: 7%
 }
 
+.in-text-link {
+    text-decoration: none;
+    box-shadow: inset 0 0px 0 white, inset 0 -3px 0 black;
+}
+
+.in-text-link:visited {
+    color: black;
+}
+
+.in-text-link:hover {
+    color: #e67c68;
+    box-shadow: inset 0 0px 0 white, inset 0 -3px 0 #e67c68;
+}
+
 #site-nav {
     margin: 0 auto;
     overflow: hidden;
@@ -47,8 +61,7 @@ ul {
 }
 
 .links:hover {
-    border-bottom-style: solid;
-    border-color: #aaa;
+    text-decoration: underline;
     color: #aaa;
 }
 
@@ -58,7 +71,7 @@ ul {
 
 #home-link:hover {
     color: #555;
-    border-bottom-style: none;
+    text-decoration: none;
 }
 
 .body {
