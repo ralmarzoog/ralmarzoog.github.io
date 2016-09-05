@@ -26,9 +26,15 @@ ul {
     list-style-type: none;
 }
 
-#name {
+#content {
     margin-left: 25%;
+    margin-right: 25%;
     margin-top: 7%
+}
+
+#tagline {
+    margin-top: -1.5em;
+    margin-bottom: 1.5em;
 }
 
 .in-text-link {
@@ -36,7 +42,7 @@ ul {
     box-shadow: inset 0 0px 0 white, inset 0 -3px 0 black;
 }
 
-.in-text-link:visited {
+.in-text-link:visited, .in-text-link:link, .in-text-link:active {
     color: black;
 }
 
