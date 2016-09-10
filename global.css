@@ -134,22 +134,34 @@ ul {
 }
 
 .slides {
-    width: 90%;
-}
-
-.slides ol {
-    list-style-type: none;
-}
-
-.slides ol li {
     width: 100%;
+    text-align: center;
 }
 
 .slide {
-    width: 100%;
+    max-width: 100%;
+}
+
+#frame-caption {
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    font-size: 0.9em; 
+    margin: 0px;
 }
 
 .controls {
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
+    margin-top: -.2em;
+}
+
+video {
+    max-width: 90%;
+    max-height: 500px;
     text-align: center;
 }
+
+.video {
+    text-align: center;
+}
+

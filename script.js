@@ -1,6 +1,5 @@
 
 $(document).ready(function(){
-
     $("#left-btn").click(function(e) {
         e.stopPropagation();
         img = document.getElementById("frame");
@@ -17,6 +16,7 @@ $(document).ready(function(){
 
         img.src = "images/frame" + newFrameNum + ".jpg";
         img.setAttribute("data", "f" + newFrameNum);
+        document.getElementById("frame-caption").innerHTML = "Time step " + newFrameNum;
     });
 
     $("#right-btn").click(function(e) {
@@ -27,6 +27,7 @@ $(document).ready(function(){
         console.log(newFrameNum);
         img.src = "images/frame" + newFrameNum + ".jpg";
         img.setAttribute("data", "f" + newFrameNum);
+        document.getElementById("frame-caption").innerHTML = "Time step " + newFrameNum;
     });
     
     $(".project").click(function() {
@@ -35,7 +36,5 @@ $(document).ready(function(){
         bgcolor = details.is(":visible") ? "#eee" : "#fff";
         $(this).css("background-color", bgcolor);
     });
-
-
 });
 

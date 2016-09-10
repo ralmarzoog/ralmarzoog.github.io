@@ -16,10 +16,9 @@
     <div id="site-nav">
         <nav>
             <a href="/" class="links" id="home-link">reema al-marzoog</a>
-            <a href="/bio" class="links">bio</a>
             <a href="/projects" class="links">projects</a>
-            <a href="/art" class="links">art</a>
-            <a href="/resume" class="links">resume</a>
+            <a href="http://ralmarzoog.carbonmade.com" class="links" target="_blank">art</a>
+            <a href="http://linkedin.com/in/ralmarzoog" class="links" target="_blank">linkedin</a>
         </nav>
     </div>
 
@@ -42,12 +41,28 @@
                     <p>
                         EcoSym is a simulation of a marine ecosystem I and my teammates created for our Concurrent Programming class. The ecosystem contains marine organisms and simulates the relationships between these organisms, as well as a few natural processes that occur in such ecosystems. EcoSym currently simulates a select few marine organisms, but the design allows potential to quickly add more. The size of the body of water and number of organisms is only limited by the thread limit on the machine running the simulation. Features include predator-prey relationships, reproduction, aging and maturity, movement, and starvation. 
                     </p>
+                    <p>
+                        The project primarily uses object polymorphism and separate threads to represent organisms or groups thereof. There is a central ecosystem class which contains the shared state of the ocean and stores data and functions allowing organisms to read and affect changes to the ocean.
+                    </p>
+                    <div class="video">
+                        <video controls>
+                            <source src="videos/ecosym-terminal-output.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
                     <div class="slides">
-                        <image src="images/frame0.jpg" alt="0th time step in simulation" class="slide" id="frame" data="f0">
+                        <image src="images/frame0.jpg" alt="Time step in simulation" class="slide" id="frame" data="f0">
+                        <p id="frame-caption">Time step 0</p>
                         <div class="controls">
                             <i class="fa fa-caret-left" aria-hidden="true" id="left-btn"></i>
                             <i class="fa fa-caret-right" aria-hidden="true" id="right-btn"></i>
                         </div>
+                    </div>
+                    <div class="video">
+                        <video controls muted>
+                            <source src="videos/ecosym-manatees.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </li>
@@ -61,6 +76,17 @@
                 <p class="proj-summary">
                     Procedurally generated scenes as XML files that represent a city developing over time and rendered the scenes using a ray tracer; used Python, C++, and GLUI
                 </p>
+                <div class="more-details">
+                    <div class="video">
+                        <video controls>
+                            <source src="videos/graphics1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                        <video controls>
+                            <source src="videos/graphics2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    <div>
             </li>
             <li class="project">
                 <h3>
