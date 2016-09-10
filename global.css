@@ -85,6 +85,10 @@ ul {
     margin: 0 auto;
 }
 
+.projects ul {
+    padding-left: 0px
+}
+
 .collabs {
     margin-top: -1.5em;
     margin-bottom: -0.5em;
@@ -163,5 +167,10 @@ video {
 
 .video {
     text-align: center;
+}
+
+#proj-page-description {
+    margin-bottom: 2.5em;
+    margin-top: -1em;
 }
 

@@ -26,6 +26,7 @@
     <h2 class="page-title">projects</h2>
 
     <div class="body projects">
+        <p id="proj-page-description">I'm not really supposed to open source the code for projects I did during undergrad, so instead I made this overview of a select few of them, mostly ones from the end of college / the more demo-able ones.</p>
         <ul>
             <li class="project">
                 <h3>
@@ -39,10 +40,13 @@
                 <p>
                 <div class="more-details">
                     <p>
-                        EcoSym is a simulation of a marine ecosystem I and my teammates created for our Concurrent Programming class. The ecosystem contains marine organisms and simulates the relationships between these organisms, as well as a few natural processes that occur in such ecosystems. EcoSym currently simulates a select few marine organisms, but the design allows potential to quickly add more. The size of the body of water and number of organisms is only limited by the thread limit on the machine running the simulation. Features include predator-prey relationships, reproduction, aging and maturity, movement, and starvation. 
+                        EcoSym is a simulation of a marine ecosystem I and my teammates created for our Concurrent Programming class. EcoSym currently simulates a select few marine organisms, but the design allows potential to quickly add more. Features include predator-prey relationships, reproduction, aging and maturity, movement, and starvation. 
                     </p>
                     <p>
-                        The project primarily uses object polymorphism and separate threads to represent organisms or groups thereof. There is a central ecosystem class which contains the shared state of the ocean and stores data and functions allowing organisms to read and affect changes to the ocean.
+                        Each instance of an organism in the program is a thread. During one unit of time during the simulation, each organism can perform an action. A barrier is used to synchronize the organisms' actions. After completing its actions for a given time step, an organism thread will wait until the rest of the organism threads are also done and then they'll all carry on with the next time step.
+                    </p>
+                    <p>
+                    This first video shows the terminal input and output for the simulation. You choose the size of the ocean (doesn't really correspond to any particular real-world units right now), the number of units of time you want to simulate, and the number of each type of organism you'd like to populate the ocean with. Then the simulation runs and you see updates about interesting events that happened at the current time step and also periodically see summaries of the organism population counts. I chose the population numbers at random, and clearly it wasn't a very well balanced ecosystem because many of the organisms starve to death.                 
                     </p>
                     <div class="video">
                         <video controls>
@@ -50,6 +54,9 @@
                         Your browser does not support the video tag.
                         </video>
                     </div>
+                    <p>
+                    The terminal input/output above produces the following visualization of what's happening during the simulation. Each organism is represented by a different color (e.g. sharks are red, manatees are light blue, tuna are orange, those green dots are phytoplankton/coccolithophores). Flipping through the images, you can see that at certain time steps a bunch of organisms disappear because they died during the last time step. This is consistent with the output you see in the terminal.
+                    </p>
                     <div class="slides">
                         <image src="images/frame0.jpg" alt="Time step in simulation" class="slide" id="frame" data="f0">
                         <p id="frame-caption">Time step 0</p>
@@ -58,6 +65,9 @@
                             <i class="fa fa-caret-right" aria-hidden="true" id="right-btn"></i>
                         </div>
                     </div>
+                    <p>
+                    Bonus video: this is what was happening before we had finished putting limitations on reproduction. So many manatees.
+                    </p>
                     <div class="video">
                         <video controls muted>
                             <source src="videos/ecosym-manatees.mp4" type="video/mp4">
@@ -77,6 +87,12 @@
                     Procedurally generated scenes as XML files that represent a city developing over time and rendered the scenes using a ray tracer; used Python, C++, and GLUI
                 </p>
                 <div class="more-details">
+                    <p>
+                        As our final project for Graphics class, my teammate and I wrote a Python script that procedurally generates XML files, each of which corresponds to one iteration of the development of a city over time. These XML files contain information about the objects in the scene (primarily buildings and roads) and their properties (position, size, etc) and are rendered using a ray tracer we wrote for an earlier project. During early iterations, there are just a few small buildings and some roads. As time passes, the city grows, skyscrapers are built, and a metropolitan downtown area forms. 
+                    </p>
+                    <p>
+                        Each time you run the script, a different city is generated. The first video shows one of the cities the script created, the second video shows the results of a different run.
+                        </p>
                     <div class="video">
                         <video controls>
                             <source src="videos/graphics1.mp4" type="video/mp4">
